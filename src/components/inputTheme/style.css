@@ -1,0 +1,18 @@
+.theme.Light{
+    background-color: rgb(0, 0, 0);
+}
+.theme.Dark{
+    background-color: rgb(255, 255, 255);
+}
+.theme .content {
+    padding: 70px 0;
+    text-align: center;
+}
+.theme button.Dark{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.theme button.Light{
+    background-color: rgb(255, 255, 255);
+
+}

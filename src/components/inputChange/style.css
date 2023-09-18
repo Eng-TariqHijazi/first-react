@@ -1,0 +1,11 @@
+.change{
+    background-color: rgb(0, 181, 235);
+}
+.change .content {
+    padding: 30px 0;
+    text-align: center;
+}
+
+.change  h2{
+    margin:  20px  0;
+}

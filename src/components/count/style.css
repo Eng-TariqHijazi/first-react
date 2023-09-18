@@ -1,0 +1,30 @@
+.count {
+  background-color: rgb(49, 136, 107);
+}
+.count .content {
+  padding: 21px 0;
+  text-align: center;
+}
+.count .content-count {
+  display: flex;
+  width: 50%;
+  margin: 40px auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.count button {
+  background-color: rgba(27, 40, 45, 0.27);
+  
+}
+.count button:hover {
+  background-color: rgba(48, 0, 241, 0.4);
+}
+.count p {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+.count h1{
+    font-size: 40px;
+    color: #fff;
+}

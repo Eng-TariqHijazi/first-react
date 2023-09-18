@@ -1,0 +1,110 @@
+@font-face {
+  font-family: "LexendDeca-Bold";
+  src: url(../../utils/fonts/LexendDeca-Bold.ttf);
+}
+@font-face {
+  font-family: "LexendDeca-Medium";
+  src: url(../../utils/fonts/LexendDeca-Medium.ttf);
+}
+@font-face {
+  font-family: "LexendDeca-Regular";
+  src: url(../../utils/fonts/LexendDeca-Regular.ttf);
+}
+@font-face {
+  font-family: "LexendDeca-SemiBold";
+  src: url(../../utils/fonts/LexendDeca-SemiBold.ttf);
+}
+.login {
+  background-color: #093545;
+  height: 100vh;
+}
+.login .content {
+  text-align: center;
+}
+.login .form h1 {
+  color: #fff;
+  font-size: 64px;
+  padding-top: 157px;
+  font-family: "LexendDeca-Medium";
+}
+.login .form .text {
+  margin-top: 39px;
+  color: #fff;
+  font-size: 16px;
+  font-family: "LexendDeca-Medium";
+}
+.login input[type="email"],
+.login input[type="password"],
+.login input[type="button"] {
+  width: 300px;
+  height: 45px;
+  margin-top: 32px;
+  border-radius: 10px;
+  background: #224957;
+  color: #fff;
+  padding: 12px 18px;
+}
+.login input::placeholder {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.login form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.login input[type="checkbox"] {
+  accent-color: #224957;
+  margin-right: 7px;
+  height: fit-content;
+}
+.login .passwordOption {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 23px;
+}
+.login .remember {
+  align-items: center;
+  display: flex;
+}
+.login .remember label {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.login .forget{
+  color: #20DF7F;
+font-size: 14px;
+font-weight: 500;
+}
+.login input[type="button"] {
+  margin-top: 24px;
+  border-radius: 10px;
+  background: #20df7f;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+
+  color: #fff;
+  font-family: "LexendDeca-Medium";
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.login input[type="button"]:hover {
+  opacity: 0.85;
+}
+.login .footer-img{
+  height: 111px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.login .darkMode{
+  position: fixed;
+  bottom: 20px;
+  left: 36px;
+}

@@ -1,0 +1,32 @@
+.card{
+    width: 350px;
+    border-radius: 15px;overflow: hidden;background-color: bisque;
+    max-height: 500px;
+    margin: 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.content-card{
+    text-align: center;
+    padding: 15px 30px;
+}
+.content-card .title{
+    font-size: 22px;
+    font-weight: 400;
+    
+}
+.card .img{
+    height: 290px;
+}
+.card button{
+    
+    background-color: rgb(115, 115, 160);
+    margin: 27px 0;
+    font-size: 16px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card button:hover{
+    opacity: 0.85;
+}
+.card button.activeBtn{
+    background-color: rgb(41, 126, 125);
+}

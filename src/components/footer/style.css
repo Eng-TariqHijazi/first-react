@@ -1,0 +1,11 @@
+.footer{
+    background-color: azure;
+}
+.footer .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer .content ul{
+    
+}

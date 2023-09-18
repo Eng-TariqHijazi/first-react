@@ -1,0 +1,11 @@
+.task{
+    text-align: center;
+}
+.task>h1{
+    font-size: 35px;
+    font-family: "LexendDeca-Medium";
+    padding: 20px 0;
+}
+*{
+    font-family: "LexendDeca-Medium";
+}

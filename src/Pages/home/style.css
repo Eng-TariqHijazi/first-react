@@ -1,0 +1,8 @@
+.home .list{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    padding: 44px 0;
+    flex-wrap: wrap;
+}
